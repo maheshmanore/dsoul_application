@@ -1,0 +1,10 @@
+node_modules/
+*.log
+.env
+server.log
+server_output.log
+pdf_debug.log
+debug_log.txt
+*.pdf
+.DS_Store
+Thumbs.db

@@ -1,1 +1,9 @@
 Date
+System Size
+Wattage
+Qty Modules
+INV Rating
+MPPT
+Year Of MNF
+Place
+System Cost

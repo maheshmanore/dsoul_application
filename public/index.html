@@ -45,52 +45,15 @@
                     <p>Review the extracted information and make any necessary corrections</p>
                 </div>
                 <form id="edit-form" class="edit-form">
-                    <div class="form-grid">
-                        <div class="form-group">
-                            <label for="sanctionNo"><i class="fa-solid fa-file-contract"></i> Sanction No</label>
-                            <input type="text" id="sanctionNo" name="Sanction No" placeholder="Enter sanction number">
-                        </div>
-                        <div class="form-group">
-                            <label for="applicationNo"><i class="fa-solid fa-hashtag"></i> Application No</label>
-                            <input type="text" id="applicationNo" name="Application No"
-                                placeholder="Enter application number">
-                        </div>
-                        <div class="form-group full-width">
-                            <label for="consumerName"><i class="fa-solid fa-user"></i> Consumer Name</label>
-                            <input type="text" id="consumerName" name="Consumer Name" placeholder="Enter consumer name">
-                        </div>
-                        <div class="form-group full-width">
-                            <label for="address"><i class="fa-solid fa-location-dot"></i> Address</label>
-                            <textarea id="address" name="Address" rows="2" placeholder="Enter address"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <label for="pincode"><i class="fa-solid fa-map-pin"></i> Pincode</label>
-                            <input type="text" id="pincode" name="Pincode" placeholder="Enter pincode">
-                        </div>
-                        <div class="form-group">
-                            <label for="mobile"><i class="fa-solid fa-phone"></i> Mobile</label>
-                            <input type="text" id="mobile" name="Mobile" placeholder="Enter mobile number">
-                        </div>
-                        <div class="form-group">
-                            <label for="email"><i class="fa-solid fa-envelope"></i> Email</label>
-                            <input type="email" id="email" name="Email" placeholder="Enter email address">
-                        </div>
-                        <div class="form-group">
-                            <label for="consumerNumber"><i class="fa-solid fa-id-card"></i> Consumer Number</label>
-                            <input type="text" id="consumerNumber" name="Consumer Number"
-                                placeholder="Enter consumer number">
-                        </div>
-                        <div class="form-group">
-                            <label for="sanctionLoad"><i class="fa-solid fa-bolt"></i> Sanction Load</label>
-                            <input type="text" id="sanctionLoad" name="Sanction Load" placeholder="Enter sanction load">
-                        </div>
+                    <div class="form-grid" id="dynamic-fields">
+                        <!-- Fields will be dynamically generated here -->
                     </div>
                     <div class="form-actions">
                         <button type="button" class="btn-secondary" id="cancelBtn">
                             <i class="fa-solid fa-arrow-left"></i> Upload Another
                         </button>
                         <button type="submit" class="btn-primary" id="generateBtn">
-                            <i class="fa-solid fa-file-word"></i> Generate DOCX
+                            <i class="fa-solid fa-file-word"></i> Generate Documents
                         </button>
                     </div>
                 </form>
