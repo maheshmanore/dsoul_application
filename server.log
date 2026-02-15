@@ -1,0 +1,4 @@
+Warning: Cannot access the `require` function: "TypeError: process.getBuiltinModule is not a function".
+Warning: Cannot polyfill `ImageData`, rendering may be broken.
+Warning: Cannot polyfill `Path2D`, rendering may be broken.
+Server running at http://localhost:3000

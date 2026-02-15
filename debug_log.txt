@@ -1,0 +1,29 @@
+Starting debug script...
+Requiring fs...
+Requiring path...
+Requiring extraction_logic...
+Warning: Cannot access the `require` function: "TypeError: process.getBuiltinModule is not a function".
+Warning: Cannot polyfill `ImageData`, rendering may be broken.
+Warning: Cannot polyfill `Path2D`, rendering may be broken.
+extraction_logic loaded.
+Requiring express...
+express loaded.
+Attempting to listen on port 3000...
+Debug Server running at http://localhost:3000
+Server Error: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1751:16)
+    at listenInCluster (node:net:1799:12)
+    at Server.listen (node:net:1887:7)
+    at Function.listen (C:\Users\manor\OneDrive\Documents\New folder (2)\code_test\node_modules\express\lib\application.js:605:24)
+    at Object.<anonymous> (C:\Users\manor\OneDrive\Documents\New folder (2)\code_test\debug_start.js:23:24)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}

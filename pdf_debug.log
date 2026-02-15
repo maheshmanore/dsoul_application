@@ -1,0 +1,19 @@
+Type of pdf export: object
+Is Array? false
+Keys: AbortException, FormatError, InvalidPDFException, Line, LineDirection, LineStore, PDFParse, PasswordException, Point, Rectangle, ResponseException, Shape, Table, UnknownErrorException, VerbosityLevel, getException
+PDF default type: undefined
+PDF itself structure: {
+  "LineDirection": {
+    "0": "None",
+    "1": "Horizontal",
+    "2": "Vertical",
+    "None": 0,
+    "Horizontal": 1,
+    "Vertical": 2
+  },
+  "VerbosityLevel": {
+    "ERRORS": 0,
+    "WARNINGS": 1,
+    "INFOS": 5
+  }
+}
