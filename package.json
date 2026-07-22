@@ -1,24 +1,23 @@
 {
-  "name": "dsoul_application",
-  "version": "1.0.0",
-  "private": true,
-  "main": "index.js",
-  "engines": {
-    "node": "22.x"
-  },
-  "scripts": {
-    "dev": "node index.js",
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "archiver": "^7.0.1",
-    "cors": "^2.8.6",
-    "docx": "^9.5.2",
-    "docxtemplater": "^3.68.1",
-    "express": "^5.2.1",
-    "multer": "^2.0.2",
-    "pdf-parse": "^2.4.5",
-    "pdfkit": "^0.17.2",
-    "pizzip": "^3.2.0"
-  }
+"name": "code_test",
+"version": "1.0.0",
+"description": "",
+"main": "index.js",
+"scripts": {
+"test": "echo "Error: no test specified" && exit 1"
+},
+"keywords": [],
+"author": "",
+"license": "ISC",
+"dependencies": {
+"archiver": "^7.0.1",
+"cors": "^2.8.6",
+"docx": "^9.5.2",
+"docxtemplater": "^3.68.1",
+"express": "^5.2.1",
+"multer": "^2.0.2",
+"pdf-parse": "^2.4.5",
+"pdfkit": "^0.17.2",
+"pizzip": "^3.2.0"
+}
 }
