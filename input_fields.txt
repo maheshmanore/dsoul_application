@@ -7,3 +7,6 @@ MPPT
 Year Of MNF
 Place
 System Cost
+sbdn
+sanction date
+meter sr no
