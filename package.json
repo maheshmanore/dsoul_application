@@ -1,14 +1,15 @@
 {
-  "name": "code_test",
+  "name": "dsoul_application",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": "22.x"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
   "dependencies": {
     "archiver": "^7.0.1",
     "cors": "^2.8.6",
